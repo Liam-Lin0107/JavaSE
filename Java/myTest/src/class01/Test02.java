@@ -6,6 +6,7 @@ public class Test02 {
         System.out.println(i);
         set(i, 20);
         System.out.println(i);
+        System.out.println(123);
     }
 
     public static void set(int k, int j){
