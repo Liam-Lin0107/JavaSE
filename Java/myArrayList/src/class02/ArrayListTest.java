@@ -19,17 +19,15 @@ public class ArrayListTest {
 
     public static void addStudent(ArrayList<Student> array){
         Scanner scanner = new Scanner(System.in);
+        Student student = new Student();
 
         System.out.print("請輸入學生姓名 : ");
         String name = scanner.nextLine();
-
+        student.setName(name);
         System.out.print("請輸入學生年齡 : ");
         int age = scanner.nextInt();
-
-        Student student = new Student();
-        student.setName(name);
         student.setAge(age);
-        array.add(student);
 
+        array.add(student);
     }
 }

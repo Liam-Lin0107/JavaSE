@@ -7,7 +7,8 @@ package class07;
 *   提供個帶參數構造方法
 * 成員方法
 *   提供每一個成員變量set 與 get方法
-*   提供呈現訊息的show方法*/
+*   提供呈現訊息的show方法
+* */
 public class Student {
     private String name;
     private int age;
